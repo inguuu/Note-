@@ -1,9 +1,10 @@
-# Note
+# Note 
+
 기본적인 상식부터 최신 기술까지 메모!
 
+📝👦💡
 
-
-### Microservice Architecture
+### 📖  Microservice Architecture
 
 - 시스템을 여러개의 독립된 서비스로 나눠서, 이 서비스를 조합함으로서 기능을 제공하는 아키텍쳐
 - SOA의 경량화 버전(실패한다면 실패하는 이유도 같음)
