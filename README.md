@@ -51,4 +51,22 @@
 - isolated(격리성), elastic(탄력성) 
 
 
+## 📖  Layers within a Docker Image?
+
+- 도커파일은 텍스트 기반 문서로, 도커 이미지를 자동으로 빌드하기 위한 명령들을 기술 
+- 컨테이너는 Multiple Layer로 구성되어 있음 - Top layer는 read/write, 나머지는 read-only
+- 실제 사용자에게 보여지는 곳은 read/write layer 
+
+
+## 📖  The benefits of using containers 
+
+#### 4 Any
+- Any Os (Linux, Windows)
+- Anywhere (On-premises, Cloud)
+- Any app(Monolith, Microservice)
+- Any langauage(Java,.Net, Python, Node)
+
+
+
+
 
