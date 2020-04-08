@@ -76,6 +76,35 @@
 - get, set month를 주입하는게 다르다.
 - get은 정상적으로 오지만 11월을 set하고 싶다면 10을 넣으면 된다. 
 
+```````
+    var weekday = new Array(7);
+ 		 weekday[0] = "Sun";
+ 		 weekday[1] = "Mon";
+ 		 weekday[2] = "Tue";
+ 		 weekday[3] = "Wed";
+ 		 weekday[4] = "Thu";
+ 		 weekday[5] = "Fri";
+ 		 weekday[6] = "Sat";
+    
+    
+    var setDate = new Date();
+ 			setDate.setFullYear(closey,closem-1,i)
+ 			var PubDt="";
+ 		
+ 			var day;
+ 			day = setDate.getDay();
+ 			
+ 			if(i<10){
+ 				PubDt= closey+closem+"0"+i;
+ 			}else{
+ 				PubDt= closey+closem+i;
+ 			}
+ 		
+ 		 if(weekday[day]=="Sun"||weekday[day]=="Sat"){
+ 			    continue;
+    }
+```````
+
 
 
 
