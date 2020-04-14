@@ -106,6 +106,11 @@ if(weekday[day]=="Sun"||weekday[day]=="Sat"){
 }
 ```````
 
+## 📖 Grid Reference
 
+- 이벤트, 메소드 중심 
+https://eblo.tistory.com/32
 
+- CSS 구조 중심 
+https://heropy.blog/2019/08/17/css-grid/
 
