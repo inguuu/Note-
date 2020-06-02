@@ -120,3 +120,10 @@ https://heropy.blog/2019/08/17/css-grid/
 #### EAI를 위한 통합 솔루션 
 
 
+- Non SAP - SAP 연결 
+- 통합 데이터 관리 
+
+## 📖 WSDL(Web Services Description Language)
+
+#### 웹 서비스 기술언어 또는 기술된 정의 파일의 총칭으로 XML로 기술된다. 웹 서비스의 구체적 내용이 기술되어 있어 서비스 제공 장소, 서비스 메시지 포맷, 프로토콜 등이 기술된다. 
+
