@@ -127,3 +127,42 @@ https://heropy.blog/2019/08/17/css-grid/
 
 #### 웹 서비스 기술언어 또는 기술된 정의 파일의 총칭으로 XML로 기술된다. 웹 서비스의 구체적 내용이 기술되어 있어 서비스 제공 장소, 서비스 메시지 포맷, 프로토콜 등이 기술된다. 
 
+## 📖 Spring scheduler 
+
+### Cron 
+
+#### context 관련 xml 파일 추가
+- xsi:schemaLocation="http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.0.xsd"
+- <context:component-scan base-package="해당 클래스의 패키지명" />
+-	<task:scheduler id="jobScheduler" pool-size="10"/>
+-	<task:annotation-driven scheduler="jobScheduler"/>
+
+#### Class 생성 
+```````
+package 패키지명;
+
+import org.springframework.scheduling.annotation.*;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Schduler {
+
+	
+	@Scheduled(cron ="0 0 * * * *")
+	public void autoprint(){
+		System.out.println("scheduletest");
+	}
+}
+
+
+```````
+
+#### cron 규칙
+
+- 6자리(초,분,시, ~, ~ ,~)
+- *은 아무때나를 의미 
+- */는 주기 반복을 의미 
+- "0 0 * * * *" 한시간 마다(정각 될 떄)
+- "0 0 */1 * * *" 한시간 마다(서버 실행 후)
+
+
